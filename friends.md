@@ -3,7 +3,7 @@ layout: default
 title: friends
 ---
 
-# Friend page
+# Friends page
 Berikut Deskripsi Teman - Teman saya di Kelas
 1. [Zamharira](https://zamharira09.github.io/)
 2. [Muhammad Aziz](https://mhmmd-aziz.github.io/)

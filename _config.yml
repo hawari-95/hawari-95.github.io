@@ -1,1 +1,6 @@
 url : "https://hawari-95.github.io"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
