@@ -1,3 +1,13 @@
 ---
 ---
 @use "main";
+
+$bgcolor: rgb(227, 227, 227);
+$textcolor: rgb(0, 31, 125);
+$fontsize: 25px;
+
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+}
