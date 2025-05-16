@@ -1,4 +1,13 @@
+title : Muhammad Hawari 
+email : muhammadhawari0153@gmail.com
+description: 
+    Personal blog of Muhammad Hawari, a student of Lhokseumawe State Polytechnic majoring in information technology and computers, who also takes the Informatics Engineering Study Program.
+     This blog is created using Jekyll and hosted by Github Pages.
+      This content is in Indonesian, but some posts may be in English.
+
 url : "https://hawari-95.github.io"
+
+github_username: hawari-95
 
 plugins:
   - jekyll-feed
