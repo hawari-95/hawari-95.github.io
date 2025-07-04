@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML link dan list"
+title: "Database Mysql dan PHP"
 ---
 
 ### Penjelasan tentang database mysql dan PHP.
@@ -32,6 +32,7 @@ PHP digunakan untuk mengakses dan memanipulasi data dalam MySQL. Contohnya:
 
 ## Contoh Kerja PHP dan Mysql
 ### 1. Membuat Koneksi ke database
+```php
 <?php
 $host = "localhost";
 $user = "root";
@@ -46,7 +47,10 @@ if (!$conn) {
 echo "Koneksi berhasil!";
 ?>
 
+```
+
 ### 2. Menjalankan Query Select
+```php
 <?php
 $query = "SELECT * FROM pelanggan";
 $result = mysqli_query($conn, $query);
@@ -56,9 +60,11 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo "Nama: " . $row['nama'] . "<br>";
 }
 ?>
+```
 
 
 ### 3. Query Insert (Menambah Data)
+```php
 <?php
 $nama = "Andi";
 $alamat = "Jakarta";
@@ -70,11 +76,14 @@ if (mysqli_query($conn, $sql)) {
     echo "Error: " . mysqli_error($conn);
 }
 ?>
+```
 
 ### 4. Menutup Koneksi
+```php
 <?php
 mysqli_close($conn);
 ?>
+```
 
 ### Tips Penggunaan
 - Gunakan prepared statements (mysqli atau PDO) untuk mencegah SQL Injection.
